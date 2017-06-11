@@ -1,4 +1,9 @@
 <RCC>
-    <qresource prefix="MainWindow">
+    <qresource prefix="/MainWindow"/>
+    <qresource prefix="/new/prefix1">
+        <file>ikonka.ico</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>carbonfiber.jpg</file>
     </qresource>
 </RCC>
