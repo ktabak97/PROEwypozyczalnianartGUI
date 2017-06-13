@@ -5,6 +5,7 @@
 #include <QGraphicsScene>
 #include "ui_mainwindow.h"
 #include "newdialog.hpp"
+#include "dialog2.hpp"
 #include "narty.hpp"
 #include "centrumnarciarskie.hpp"
 #include "wypozyczalnia.hpp"
@@ -22,6 +23,7 @@ public slots:
 	void pokazwypozyczalnie();
 	void pokazwypozyczalnie2();
 	void pokaznarty();
+//	void pokaznarty2();
 	void dodajwypozyczalnie();
 
 protected:

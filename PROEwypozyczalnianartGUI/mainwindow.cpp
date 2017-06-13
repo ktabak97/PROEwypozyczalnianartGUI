@@ -71,3 +71,8 @@ void MainWindow::pokaznarty()
 	dialog.exec();
 }
 
+//void MainWindow::pokaznarty2()
+//{
+//	Dialog2 dialog2;
+//	dialog2.exec();
+//}

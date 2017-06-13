@@ -26,14 +26,6 @@ void NewDialog::pokaznartywdialogu()
 	lineEdit_4->setText(QString::fromStdString(wszystkie_narty.at(0)->zwrocPoziom()));
 	lineEdit_5->setText(QString::fromStdString(wszystkie_narty.at(0)->zwrocDostepnosc()));
 	
-	try {
-		lineEdit_10->setText(QString::fromStdString(wszystkie_narty.at(1)->zwrocNazwa()));
-	}
-	catch(out_of_range)
-	{
-		lineEdit_10->setText("nie ma takich nart");
-	}
-	
 	graphicsView2->setScene(&scene2);
 	if (image2.load("nartypodstawowe.jpg"));
 	{
@@ -42,6 +34,34 @@ void NewDialog::pokaznartywdialogu()
 		scene2.addPixmap(image2);
 		graphicsView2->fitInView(image2.rect());
 	}
+
+	try {
+		lineEdit_21->setText(QString::fromStdString(wszystkie_narty.at(1)->zwrocNazwa()));
+		lineEdit_22->setText(QString::number(wszystkie_narty.at(1)->zwrocCena()));
+		lineEdit_23->setText(QString::number(wszystkie_narty.at(1)->zwrocDlugosc()));
+		lineEdit_24->setText(QString::fromStdString(wszystkie_narty.at(1)->zwrocPoziom()));
+		lineEdit_25->setText(QString::fromStdString(wszystkie_narty.at(1)->zwrocDostepnosc()));
+
+		graphicsView2->setScene(&scene2);
+		if (image2.load("head.jpg"));
+		{
+			scene2.setSceneRect(image2.rect());
+			scene2.clear();
+			scene2.addPixmap(image2);
+			graphicsView2->fitInView(image2.rect());
+		}
+
+	}
+	catch(out_of_range)
+	{
+		lineEdit_21->setText("nie ma takich nart");
+		lineEdit_22->setText("nie ma takich nart");
+		lineEdit_23->setText("nie ma takich nart");
+		lineEdit_24->setText("nie ma takich nart");
+		lineEdit_25->setText("nie ma takich nart");
+	}
+	
+
 }
 
 void NewDialog::ourAction()

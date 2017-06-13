@@ -68,6 +68,9 @@
     <ClCompile Include="centrumnarciarskie.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="dialog2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="mainwindow.h">
@@ -85,6 +88,12 @@
     <CustomBuild Include="newdialog.hpp">
       <Filter>Header Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="dialog2.hpp">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialog2.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
@@ -101,6 +110,9 @@
     </ClInclude>
     <ClInclude Include="centrumnarciarskie.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dialog2.h">
+      <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

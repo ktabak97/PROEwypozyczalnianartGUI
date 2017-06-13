@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>562</width>
-    <height>329</height>
+    <width>553</width>
+    <height>339</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,121 +17,20 @@
    <string notr="true">QDialog
 {background-image: url(:/new/prefix2/carbonfiber.jpg)
 }
+
 </string>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QLineEdit" name="lineEdit_13">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>10</y>
-     <width>75</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Pokaz narty</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_2">
-   <property name="geometry">
-    <rect>
-     <x>390</x>
-     <y>270</y>
-     <width>75</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Zamknij</string>
-   </property>
-  </widget>
-  <widget class="QGraphicsView" name="graphicsView2">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>50</y>
-     <width>256</width>
-     <height>192</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>40</y>
+     <y>250</y>
      <width>81</width>
      <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>Nazwa:</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
-   <property name="geometry">
-    <rect>
-     <x>120</x>
-     <y>60</y>
-     <width>113</width>
-     <height>20</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_3">
-   <property name="geometry">
-    <rect>
-     <x>120</x>
-     <y>80</y>
-     <width>113</width>
-     <height>20</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_4">
-   <property name="geometry">
-    <rect>
-     <x>120</x>
-     <y>100</y>
-     <width>113</width>
-     <height>20</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_5">
-   <property name="geometry">
-    <rect>
-     <x>120</x>
-     <y>120</y>
-     <width>113</width>
-     <height>20</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_6">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>60</y>
-     <width>81</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Cena:</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_7">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>80</y>
-     <width>81</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Dlugosc:</string>
+    <string>Poziom:</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_8">
@@ -147,24 +46,37 @@
     <string>Poziom:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_9">
+  <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>120</y>
+     <y>40</y>
      <width>81</width>
      <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>Dostepnosc:</string>
+    <string>Nazwa:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_1">
+  <widget class="QLineEdit" name="lineEdit_17">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cena:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>40</y>
+     <y>80</y>
      <width>113</width>
      <height>20</height>
     </rect>
@@ -183,11 +95,172 @@
     <string>dodajnarty2</string>
    </property>
   </widget>
+  <widget class="QLineEdit" name="lineEdit_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cena:</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>50</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_1">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_24">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>250</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_16">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dostepnosc:</string>
+   </property>
+  </widget>
   <widget class="QLineEdit" name="lineEdit_21">
    <property name="geometry">
     <rect>
      <x>120</x>
      <y>190</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_22">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>210</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>60</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>270</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Zamknij</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dlugosc:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_25">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>270</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_14">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dlugosc:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pokaz narty</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dostepnosc:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>100</y>
      <width>113</width>
      <height>20</height>
     </rect>
@@ -216,83 +289,11 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_13">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>250</y>
-     <width>81</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Poziom:</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_14">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>230</y>
-     <width>81</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Dlugosc:</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_22">
+  <widget class="QLineEdit" name="lineEdit_5">
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>210</y>
-     <width>113</width>
-     <height>20</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_16">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>270</y>
-     <width>81</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Dostepnosc:</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_17">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>210</y>
-     <width>81</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Cena:</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_24">
-   <property name="geometry">
-    <rect>
-     <x>120</x>
-     <y>250</y>
-     <width>113</width>
-     <height>20</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_25">
-   <property name="geometry">
-    <rect>
-     <x>120</x>
-     <y>270</y>
+     <y>120</y>
      <width>113</width>
      <height>20</height>
     </rect>
@@ -304,18 +305,18 @@
  </resources>
  <connections>
   <connection>
-   <sender>pushButton</sender>
+   <sender>pushButton_3</sender>
    <signal>clicked()</signal>
    <receiver>Dialog</receiver>
-   <slot>pokaznartywdialogu()</slot>
+   <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>130</x>
-     <y>50</y>
+     <x>37</x>
+     <y>171</y>
     </hint>
     <hint type="destinationlabel">
-     <x>166</x>
-     <y>30</y>
+     <x>276</x>
+     <y>169</y>
     </hint>
    </hints>
   </connection>
@@ -323,31 +324,31 @@
    <sender>pushButton_2</sender>
    <signal>clicked()</signal>
    <receiver>Dialog</receiver>
-   <slot>close()</slot>
+   <slot>dodajNartyGUI()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>267</x>
-     <y>191</y>
+     <x>417</x>
+     <y>281</y>
     </hint>
     <hint type="destinationlabel">
-     <x>280</x>
-     <y>164</y>
+     <x>276</x>
+     <y>169</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_3</sender>
+   <sender>pushButton</sender>
    <signal>clicked()</signal>
    <receiver>Dialog</receiver>
-   <slot>dodajNartyGUI()</slot>
+   <slot>pokaznartywdialogu()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>100</x>
-     <y>221</y>
+     <x>37</x>
+     <y>21</y>
     </hint>
     <hint type="destinationlabel">
-     <x>98</x>
-     <y>243</y>
+     <x>276</x>
+     <y>169</y>
     </hint>
    </hints>
   </connection>
