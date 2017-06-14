@@ -6,12 +6,16 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>562</width>
-    <height>329</height>
+    <width>722</width>
+    <height>424</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Narty</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="mainwindow.qrc">
+    <normaloff>:/new/prefix1/ikonka.ico</normaloff>:/new/prefix1/ikonka.ico</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">QDialog
@@ -22,8 +26,8 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>10</y>
+     <x>500</x>
+     <y>40</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -35,8 +39,8 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>270</y>
+     <x>600</x>
+     <y>380</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -48,10 +52,10 @@
   <widget class="QGraphicsView" name="graphicsView2">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>50</y>
-     <width>256</width>
-     <height>192</height>
+     <x>240</x>
+     <y>20</y>
+     <width>181</width>
+     <height>121</height>
     </rect>
    </property>
   </widget>
@@ -173,21 +177,21 @@
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>600</x>
      <y>160</y>
      <width>75</width>
      <height>23</height>
     </rect>
    </property>
    <property name="text">
-    <string>dodajnarty2</string>
+    <string>Head</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_21">
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>190</y>
+     <y>180</y>
      <width>113</width>
      <height>20</height>
     </rect>
@@ -197,7 +201,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>190</y>
+     <y>180</y>
      <width>81</width>
      <height>20</height>
     </rect>
@@ -210,7 +214,7 @@
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>230</y>
+     <y>220</y>
      <width>113</width>
      <height>20</height>
     </rect>
@@ -220,7 +224,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>250</y>
+     <y>240</y>
      <width>81</width>
      <height>20</height>
     </rect>
@@ -233,7 +237,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>230</y>
+     <y>220</y>
      <width>81</width>
      <height>20</height>
     </rect>
@@ -246,7 +250,7 @@
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>210</y>
+     <y>200</y>
      <width>113</width>
      <height>20</height>
     </rect>
@@ -256,7 +260,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>270</y>
+     <y>260</y>
      <width>81</width>
      <height>20</height>
     </rect>
@@ -269,9 +273,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>210</y>
+     <y>199</y>
      <width>81</width>
-     <height>20</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="text">
@@ -282,7 +286,7 @@
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>250</y>
+     <y>240</y>
      <width>113</width>
      <height>20</height>
     </rect>
@@ -292,9 +296,209 @@
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>270</y>
+     <y>260</y>
      <width>113</width>
      <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_26">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>370</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_18">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>329</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cena:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_27">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>330</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_12">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nazwa:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_28">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>310</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_15">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dlugosc:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_19">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>390</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dostepnosc:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_29">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>390</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_20">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Poziom:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_30">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>350</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_10">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Narty 1</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_31">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Narty 2</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_32">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Narty 3</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_33">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>160</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dodaj narty:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>180</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fischer</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView2_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>160</y>
+     <width>181</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView2_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>290</y>
+     <width>181</width>
+     <height>121</height>
     </rect>
    </property>
   </widget>
@@ -351,9 +555,27 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>dodajNartyGUI2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>621</x>
+     <y>190</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>577</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>pokaznartywdialogu()</slot>
   <slot>dodajNartyGUI()</slot>
+  <slot>dodajNartyGUI2()</slot>
+  <slot>slot2()</slot>
  </slots>
 </ui>

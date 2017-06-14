@@ -9,6 +9,7 @@
 #include "narty.hpp"
 #include "centrumnarciarskie.hpp"
 #include "wypozyczalnia.hpp"
+#include "wypnartzawod.hpp"
 
 class MainWindow : public QMainWindow
 {
@@ -22,6 +23,7 @@ public slots:
 	//void message();
 	void pokazwypozyczalnie();
 	void pokazwypozyczalnie2();
+	void pokazwypozyczalnianartzawodniczych();
 	void pokaznarty();
 //	void pokaznarty2();
 	void dodajwypozyczalnie();
@@ -34,6 +36,7 @@ protected:
 
 	Narty narty;
 	Wypozyczalnia wypozyczalnia;
+	WypozyczalniaNartZawodniczych wypnartzawod;
 
 
 };

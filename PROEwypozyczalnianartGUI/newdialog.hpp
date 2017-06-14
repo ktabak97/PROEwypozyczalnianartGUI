@@ -23,10 +23,16 @@ public slots:
 	void ourAction();
 	void pokaznartywdialogu();
 	void dodajNartyGUI();
+	void dodajNartyGUI2();
+	void dodajNartyGUI3();
+
 private:
 	Ui::Dialog ui;
 	QGraphicsScene scene2;
 	QPixmap image2;
-
+	QGraphicsScene scene3;
+	QPixmap image3;
+	QGraphicsScene scene4;
+	QPixmap image4;
 };
 #endif // NEWDIALOG_H

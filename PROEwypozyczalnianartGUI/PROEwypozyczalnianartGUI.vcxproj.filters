@@ -71,6 +71,9 @@
     <ClCompile Include="dialog2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="wypnartzawod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="mainwindow.h">
@@ -113,6 +116,9 @@
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_dialog2.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wypnartzawod.hpp">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
